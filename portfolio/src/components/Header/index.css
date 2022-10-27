@@ -1,0 +1,18 @@
+header {
+    color: #7d8792;
+    height: 90px;
+    background-color: #2b2c2c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
