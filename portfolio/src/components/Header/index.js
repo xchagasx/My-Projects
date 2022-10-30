@@ -4,13 +4,15 @@ import '../../../src/styles.css'
 import Menu from "../Menu";
 import Banner from "./Banner";
 
+import { FaDatabase } from "react-icons/fa";
+
 export default function Header() {
     return(
         <>
         <header>
             <div className="container">
                 <div>
-                    logo
+                    <a><FaDatabase /></a>
                 </div>
                 <Menu />
             </div>

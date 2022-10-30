@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image:url('../../../assets/laptop-front-end-developer-web-writing-programming-code-language-website-mix-media-technology-background-244807448.jpg') ;
+    background-image:url('../../../assets/laptop-front-end-developer-web-writing-programming-code-language-website-mix-media-technology-background-244807448.jpg');
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -26,15 +26,20 @@ div {
     z-index: 1;
 }
 
-h2 {
-    text-transform: uppercase;
+h3 {
     font-size: 1.2rem;
     color: #EEEEEE;
     margin-bottom: 1rem;
 }
 
-h1 {
+h2 {
     text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #EEEEEE;
+    margin-bottom: 0;
+}
+
+h1 {
     font-size: 2.8rem;
     color: #EEEEEE;
     margin-bottom: 1rem;
@@ -44,6 +49,7 @@ p {
     font-size: 1rem;
     color: #EEEEEE;
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 button {
