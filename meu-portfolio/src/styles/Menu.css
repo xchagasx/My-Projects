@@ -1,0 +1,21 @@
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: color 0.8s ease;
+}
+
+a:hover {
+  color: #61dafb;
+  font-size: 30px;
+  transition: 0.8s ease-in-out;
+}
