@@ -1,20 +1,23 @@
 import React from 'react';
 import { Route, BrowserRouter } from 'react-router-dom';
-// import Menu from './components/Menu';
 
-import Header from './components/Header';
-import Sobre from './components/Sobre';
-import Projetos from './components/Projetos';
-import Contato from './components/Contato';
+import Header from './Header';
+import Sobre from './Sobre';
+import Projetos from './Projetos';
+import Contato from './Contato';
 
 const Routes = () => {
   return (
+        <Routes>
         <BrowserRouter>
-          <Route Component={ Header } path='/' exact /> 
-          <Route Component={ Sobre } path='/sobre' />
-          <Route Component={ Projetos } path='/projetos' />
-          <Route Component={ Contato} path='/contato' />
+          <Route Component= { Header } path='/' exact />
+
+          
+          <Route Component= { Sobre } path='/sobre' />
+          <Route Component= { Projetos } path='/projetos' />
+          <Route Component= { Contato} path='/contato' />
         </BrowserRouter>
+        </Routes>
   ); 
 }
 
